@@ -1,0 +1,19 @@
+if(
+  ri!num = 0,
+  0,
+  if(
+    mod(ri!num, 10) <> 0,
+    0,
+    1 + rule!SP_TRAILING_ZEROS(floor(ri!num / 10))
+  )
+)
+/*
+🧪 Examples
+Input	Output
+50010000	4
+12000	3
+10020	1
+9070	1
+123	0
+0	1
+*/
