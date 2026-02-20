@@ -1,0 +1,4 @@
+a!forEach(
+  items: enumerate(ri!end - (ri!start-1)) + ri!start,
+  expression: rule!SP_Factorial(fv!item)
+)
