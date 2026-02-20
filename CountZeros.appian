@@ -1,0 +1,3 @@
+len(tostring(ri!num))
+-
+len(substitute(tostring(ri!num), "0", ""))
