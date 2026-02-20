@@ -1,0 +1,6 @@
+joinarray(split(trim(ri!text), " "), " ")
+
+/*
+Input - "  Hello   World  "
+Output - "Hello World"
+*/
