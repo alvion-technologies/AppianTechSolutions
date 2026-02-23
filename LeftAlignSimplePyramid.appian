@@ -1,0 +1,4 @@
+a!forEach(
+  items: enumerate(ri!lines) + 1,
+  expression: joinarray(repeat(fv!item, "*"))
+)
