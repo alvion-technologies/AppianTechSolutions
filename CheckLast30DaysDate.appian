@@ -3,3 +3,9 @@ and(
   ri!inputDate >= edate(today(), -1) + 1,
   ri!inputDate <= today()
 )
+
+Solution 2
+and(
+  ri!inputDate >= a!subtractDateTime(startDateTime: today(), months: 1),
+  ri!inputDate <= today()
+)
