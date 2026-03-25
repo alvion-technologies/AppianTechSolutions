@@ -1,0 +1,5 @@
+and(
+  not(isnull(ri!inputDate)),
+  ri!inputDate >= edate(today(), -1) + 1,
+  ri!inputDate <= today()
+)
