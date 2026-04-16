@@ -1,0 +1,7 @@
+a!localVariables(
+  if(
+    ri!num <= 1,
+    1,
+    product(enumerate(ri!num) + 1)
+  )
+)
